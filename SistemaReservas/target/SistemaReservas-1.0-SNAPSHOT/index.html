@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva de Espacios</title>
+</head>
+<body>
+    <h2>Realizar una Reserva</h2>
+    <form action="ReservaServlet" method="post">
+        <label>Nombre:</label>
+        <input type="text" name="nombre" required><br>
+
+        <label>Fecha:</label>
+        <input type="date" name="fecha" required><br>
+
+        <label>Espacio:</label>
+        <select name="espacio" required>
+            <option value="escritorio">Escritorio</option>
+            <option value="sala">Sala de Reuniones</option>
+            <option value="oficina">Oficina Privada</option>
+        </select><br>
+
+        <label>Duración (horas):</label>
+        <input type="number" name="duracion" min="1" max="8" required><br>
+
+        <button type="submit">Reservar</button>
+    </form>
+</body>
+</html>

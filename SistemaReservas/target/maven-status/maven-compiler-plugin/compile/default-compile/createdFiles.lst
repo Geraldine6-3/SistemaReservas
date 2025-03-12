@@ -1,0 +1,4 @@
+com\mycompany\sistemareservas\ListaReservasServlet.class
+com\mycompany\sistemareservas\Reserva.class
+com\mycompany\sistemareservas\EliminarReservaServlet.class
+com\mycompany\sistemareservas\ReservaServlet.class
